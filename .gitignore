@@ -1,0 +1,12 @@
+# Dependency directories
+vendor/
+
+# Environment / secret files
+password.env
+.env
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
