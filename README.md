@@ -1,49 +1,33 @@
-# Weihao Lee - Software Engineering Portfolio
+# 👨‍💻 Weihao Lee - Software Engineering Portfolio
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor_IDE-000000?style=for-the-badge&logo=cursor&logoColor=white)
 
-## About The Project
+## 📖 Project Overview
+This repository contains the source code for my personal portfolio website. It serves as a central hub for my software engineering projects, demonstrating my ability to build responsive frontends and secure, functional PHP backends.
 
-This portfolio website serves as a comprehensive showcase of my technical projects, demonstrating my backend logic capabilities and frontend design skills to potential employers. Crafted with a focus on clean code architecture and accessibility, the site features a responsive, dark-themed user interface that adapts seamlessly to various devices. Key accessibility considerations, such as `prefers-reduced-motion`, have been integrated to ensure a smooth and inclusive user experience for all visitors.
+Rather than using a drag-and-drop website builder, I developed this site from scratch utilizing the **Cursor AI IDE** to accelerate boilerplate generation, allowing me to focus heavily on secure backend routing, dependency management, and UI/UX accessibility.
 
-## Featured Projects Showcase
+## 🚀 Featured Projects
+* **[Juju Connect]((https://github.com/LeeWeiHao0624/JuJuConnect)):** A comprehensive carpooling application built with PHP and MySQL, featuring a 12-table normalized database and 4 distinct user roles.
+* **[Automated Production Calculator]((https://github.com/LeeWeiHao0624/Automated-Production-Calculator)):** A Python/Selenium web-scraping tool that automates complex daily factory math and production planning.
 
-Here are some of the key projects featured on this portfolio, highlighting diverse technical challenges and solutions:
+## 🛠️ Technical Highlights & Architecture
 
-*   **Juju Connect**: A robust carpooling application built with PHP, demonstrating structured data models, secure user authentication, and efficient ride-matching algorithms.
-*   **Tamago Calculator**: A precision-focused calculator application showcasing meticulous arithmetic logic implementation and a clean, intuitive user interface design.
+While the frontend utilizes **Bootstrap 5** and custom CSS variables for a modern dark theme, the core engineering focus of this project is the backend infrastructure:
 
-## Tech Stack
+* **Secure Contact Form:** Engineered a custom PHP contact form with strict server-side validation to sanitize inputs and prevent HTML/SQL injection.
+* **Dependency Management:** Utilized **Composer** to integrate `PHPMailer` for reliable, authenticated SMTP email delivery.
+* **Credential Security:** Implemented an environment variable system (`password.env`) parsed by a custom `mail.php` configuration file to ensure sensitive SMTP credentials are never exposed to the client or committed to version control.
+* **Accessibility (a11y):** Integrated semantic HTML5 and `prefers-reduced-motion` media queries to ensure inclusive navigation.
 
-This project leverages a modern and efficient tech stack to deliver a dynamic and responsive web experience:
+## 💻 Local Setup & Installation
 
-*   **Backend & Routing**: PHP , Python
-*   **Frontend Structure**: HTML5
-*   **Styling**: CSS3 (with custom CSS variables for theme management)
-*   **Framework**: Bootstrap 5
+To run this portfolio locally and enable the contact form functionality:
 
-## Local Installation & Setup
-
-To get a copy of this project up and running on your local machine for development and testing purposes, follow these steps:
-
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-github-username/your-repository-name.git
-    cd your-repository-name
-    ```
-2.  **Set up a local PHP server environment**: This project requires a local server environment to run PHP scripts, especially for features like the secure contact form. You can use:
-    *   **XAMPP/WAMP/Laragon**: Install one of these packages, place the project folder in the `htdocs` (XAMPP/WAMP) or `www` (Laragon) directory, and start your Apache and MySQL services.
-    *   **Built-in PHP Development Server**: For a quick setup, navigate to the project root directory in your terminal and run:
-        ```bash
-        php -S localhost:8000
-        ```
-        Then, open your web browser and go to `http://localhost:8000`.
-
-## Contact
-
-I'm always open to discussing new opportunities or collaborations. Feel free to reach out!
-
-*   **Email**: weihao.lee.works@gmail.com
-*   **GitHub**: [Your GitHub Profile](https://github.com/your-github-username)
-*   **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-linkedin-profile)
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/LeeWeiHao0624/portfolio.git](https://github.com/LeeWeiHao0624/portfolio.git)
+   cd portfolio
