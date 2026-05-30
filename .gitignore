@@ -1,11 +1,15 @@
-# Dependency directories
+# Dependencies
+node_modules/
 vendor/
 
-# Environment / secret files
+# Build
+dist/
+
+# Environment / secrets
 password.env
 .env
 
-# OS / editor files
+# OS / editor
 .DS_Store
 Thumbs.db
 .vscode/
